@@ -550,6 +550,10 @@ footer{
     .section-7-card{
         text-align: center;
     }
+    .sub-section-8{
+        width: 90%;
+    
+    }
     .team-container{
         display: flex;
         flex-direction: column;
