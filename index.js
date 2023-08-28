@@ -14,7 +14,7 @@ function destroyCarousel() {
 }
 
 // Initial setup on document load
-initializeCarousel(4, 4);
+initializeCarousel(5, 5);
 
 // Update on window resize
 window.addEventListener('resize', function() {
@@ -31,7 +31,7 @@ window.addEventListener('resize', function() {
         initializeCarousel(3, 3);
     } else {
         destroyCarousel();
-        initializeCarousel(4, 4);
+        initializeCarousel(5, 5);
     }
 });
 

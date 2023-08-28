@@ -48,7 +48,8 @@ html, body {
     border:none
   }
 
-.logo{
+
+  .logo{
     position: absolute;
     z-index: 1;
     left:50%;
@@ -161,6 +162,7 @@ html, body {
     margin-bottom: 1rem;
     margin-top: 1rem;
     background-color: #9BC037;
+    cursor: pointer;
 }
 .trans-btn{
     padding:0.38rem 2rem;
@@ -170,6 +172,7 @@ html, body {
     margin-top: 1rem;
     background-color: transparent;
     color: #fff;
+    cursor: pointer;
 }
 .trans-btn-2{
     padding:0.38rem 2rem;
@@ -476,7 +479,7 @@ table{
 }
 footer{
     display: flex;
-    background-color: #99b940;
+    background-color: #a6c15f;
     justify-content: space-between;
     padding: 0 1.5rem;
     color: #32373C;
@@ -485,7 +488,9 @@ footer{
     color: #32373C;
 
 }
-
+.nav-btn{
+    cursor: pointer;
+}
 /* media queries */
 /* :target screens below */
 @media (max-width: 890px){
