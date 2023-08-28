@@ -1,3 +1,4 @@
+//slider display function
 function initializeCarousel(slideshow, slidesToRoll) {
     $('.slick-carousel').slick({
         infinite: true,
@@ -9,6 +10,7 @@ function initializeCarousel(slideshow, slidesToRoll) {
     });
 }
 
+//remove carousel
 function destroyCarousel() {
     $('.slick-carousel').slick('unslick');
 }
@@ -19,6 +21,7 @@ initializeCarousel(5, 5);
 // Update on window resize
 window.addEventListener('resize', function() {
     const screenWidth = window.innerWidth;
+    //screen width conditions
     if (screenWidth <= 630) {
         destroyCarousel();
         initializeCarousel(1, 1);
@@ -35,11 +38,5 @@ window.addEventListener('resize', function() {
     }
 });
 
-$('.fade').slick({
-    dots: true,
-    infinite: true,
-    speed: 500,
-    fade: true,
-    cssEase: 'linear'
-  });
+
       
