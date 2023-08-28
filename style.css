@@ -497,6 +497,10 @@ footer{
     .logo{
         display: none;
     }
+    html, body {
+overflow-x: hidden;
+    
+      }
     nav{
         display: flex;
         flex-direction: column;
